@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 16px;
+
+}
+
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1468818438311-4bab781ab9b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-style: solid;
+}
+
+
+header>h1 {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 200px;
+    margin: 20px;
+    color: ivory;
+}
+
+header>h2 {
+    text-align: center;
+    padding-bottom: 200px;
+    color: ivory;
+}
+
+.topnav {
+    background-color: rgb(245, 219, 70);
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 25px;
+    margin-left: 350px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: red;
+}
+
+#myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.show {
+    display: block;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin: 30px;
+    font-size: 17px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.section {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+div>h2 {
+    margin: 15px;
+    padding: 10px;
+    font-size: 36px;
+}
+
+div>p {
+    font-size: 20px;
+}
+
+
+
+
+.Talk {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightgray;
+    flex: 1;
+    border: 2px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.Help {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightgray;
+    margin-right: 20px;
+}
+
+
+
+.Help>h2 {
+    font-size: 36px;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+.contact {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    align-items: center;
+}
+
+.contact:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+}
+
+.Contact {
+    display: flex;
+}
