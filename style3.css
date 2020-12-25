@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.topnav {
+    background-color: rgb(245, 219, 70);
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 25px;
+    margin-left: 350px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: red;
+}
+
+#myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.show {
+    display: block;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin: 30px;
+    font-size: 17px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.hth {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.hth>h1 {
+    padding: 10px;
+    font-size: 48px;
+}
+
+.hth>h2 {
+    font-size: 36px;
+    padding: 10px;
+}
+
+.hth>p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.hth>li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(245, 219, 70);
+    border: 2px solid black;
+}
+
+.look {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lightgrey;
+}
+
+.look>h1 {
+    font-size: 48px;
+    padding: 10px;
+}
+
+.look>p {
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.look>li {
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.conversation {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lightgrey;
+}
+
+.conversation>h1 {
+    padding: 10px;
+    font-size: 48px;
+}
+
+.conversation>p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.conversation>li {
+    padding: 10px;
+    font-size: 20px;
+}
