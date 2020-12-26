@@ -186,6 +186,8 @@ div>p {
 
 li {
     font-size: 20px;
+    padding: 10px;
+    text-align: justify;
 }
 
 .Help {
@@ -201,6 +203,7 @@ li {
 
 .Help>h2 {
     font-size: 36px;
+    padding: 10px;
 }
 
 footer {
