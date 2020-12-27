@@ -150,22 +150,37 @@ a {
     }
 }
 
+.class {
+    display: flex;
+}
+
 .section {
-    text-align: center;
+    text-align: justify;
     padding: 20px;
     border: 2px solid black;
     margin: 10px;
     background-color: lightgray;
+
+}
+
+.depress {
+    max-width: 400px;
+    margin: 50px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: block;
 }
 
 .section>h1 {
     padding: 10px;
     font-size: 48px;
+    text-align: center;
 }
 
 .section>h2 {
     font-size: 36px;
     padding: 10px;
+    text-align: center;
 }
 
 .section>p {
@@ -196,6 +211,7 @@ footer {
 .causes>h1 {
     font-size: 48px;
     padding: 10px;
+    text-align: center;
 }
 
 .causes>p {
@@ -212,7 +228,7 @@ footer {
 }
 
 .depression {
-    text-align: center;
+    text-align: justify;
     padding: 10px;
     border: 2px solid black;
     margin: 10px;
@@ -222,6 +238,7 @@ footer {
 .depression>h1 {
     padding: 10px;
     font-size: 48px;
+    text-align: center;
 }
 
 .depression>p {

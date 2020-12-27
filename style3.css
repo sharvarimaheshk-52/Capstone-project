@@ -152,21 +152,40 @@ a {
 }
 
 .hth {
-    text-align: center;
+    text-align: justify;
     padding: 20px;
     border: 2px solid black;
     margin: 10px;
     background-color: lightgray;
+    display: inline;
+    float: right;
+    width: 600px;
 }
+
+img {
+    max-width: 400px;
+    margin: 50px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: block;
+}
+
+#convo {
+    max-width: 500px;
+    margin: 50px;
+}
+
 
 .hth>h1 {
     padding: 10px;
     font-size: 48px;
+    text-align: center;
 }
 
 .hth>h2 {
     font-size: 36px;
     padding: 10px;
+    text-align: center;
 }
 
 .hth>p {
@@ -187,7 +206,7 @@ footer {
 }
 
 .look {
-    text-align: center;
+    text-align: justify;
     padding: 10px;
     border: 2px solid black;
     margin: 10px;
@@ -197,6 +216,7 @@ footer {
 .look>h1 {
     font-size: 48px;
     padding: 10px;
+    text-align: center;
 }
 
 .look>p {
@@ -213,7 +233,7 @@ footer {
 }
 
 .conversation {
-    text-align: center;
+    text-align: justify;
     padding: 10px;
     border: 2px solid black;
     margin: 10px;
@@ -223,6 +243,7 @@ footer {
 .conversation>h1 {
     padding: 10px;
     font-size: 48px;
+    text-align: center;
 }
 
 .conversation>p {
