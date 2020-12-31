@@ -250,3 +250,124 @@ footer {
     padding: 10px;
     font-size: 20px;
 }
+
+.quiz {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: aquamarine;
+
+
+}
+
+.quiz>h1 {
+    font-size: 48px;
+    padding: 10px;
+}
+
+.quiz>h3 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+
+#submit {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+}
+
+.prompt {
+    display: block;
+    font-size: 20px;
+}
+
+.btn {
+    margin: 0 20px 0 20px;
+}
+
+.btn-strongly-agree {
+    color: #89d298;
+    font-weight: bold;
+}
+
+.btn-strongly-agree.active,
+.btn-strongly-agree:active,
+.btn-strongly-agree:focus,
+.btn-strongly-agree:active:focus,
+.btn-strongly-agree.active:focus,
+.btn-strongly-agree:hover {
+    background-color: #89d298;
+}
+
+.btn-agree {
+    color: #89d298;
+}
+
+.btn-agree.active,
+.btn-agree:active,
+.btn-agree:focus,
+.btn-agree:active:focus,
+.btn-agree.active:focus,
+.btn-agree:hover {
+    background-color: rgba(137, 210, 152, 0.5);
+}
+
+.btn-disagree {
+    color: #e28181;
+}
+
+.btn-disagree.active,
+.btn-disagree:active,
+.btn-disagree:focus,
+.btn-disagree:active:focus,
+.btn-disagree.active:focus,
+.btn-disagree:hover {}
+
+.btn-strongly-disagree {
+
+    font-weight: bold;
+}
+
+.btn-strongly-disagree.active,
+.btn-strongly-disagree:active,
+.btn-strongly-disagree:focus,
+.btn-strongly-disagree:active:focus,
+.btn-strongly-disagree.active:focus,
+.btn-strongly-disagree:hover {
+    background-color: #e28181;
+}
+
+.bottom {
+    margin-bottom: 100px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* RESULTS */
+.results {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
