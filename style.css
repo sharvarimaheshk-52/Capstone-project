@@ -40,7 +40,7 @@ header>h2 {
 }
 
 .topnav {
-    background-color: rgb(245, 219, 70);
+    background-image: linear-gradient(135deg, #FCCF31 10%, #F55555 100%);
 }
 
 
@@ -55,7 +55,7 @@ header>h2 {
 }
 
 .dropbtn {
-    background-color: red;
+    background-color: darkturquoise;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -70,7 +70,7 @@ header>h2 {
 
 .dropbtn:hover,
 .dropbtn:focus {
-    background-color: red;
+    background-color: deepskyblue;
 }
 
 #myInput {
@@ -119,7 +119,7 @@ header>h2 {
 
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: black;
 }
 
@@ -209,7 +209,7 @@ li {
 footer {
     padding: 50px;
     text-align: center;
-    background-color: lightgray;
+    background-image: linear-gradient(135deg, #FCCF31 10%, #F55555 100%);
     border: 2px solid black;
 }
 

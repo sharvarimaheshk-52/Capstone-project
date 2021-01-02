@@ -36,7 +36,7 @@ a {
 
 
 .topnav {
-    background-color: rgb(245, 219, 70);
+    background-image: linear-gradient(135deg, #FFA8A8 10%, #FCFF00 100%);
 }
 
 
@@ -50,8 +50,45 @@ a {
     font-size: 17px;
 }
 
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin: 30px;
+    font-size: 17px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .topnav input[type=text] {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
 .dropbtn {
-    background-color: red;
+    background-color: darkturquoise;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -66,7 +103,7 @@ a {
 
 .dropbtn:hover,
 .dropbtn:focus {
-    background-color: red;
+    background-color: deepskyblue;
 }
 
 #myInput {
@@ -114,42 +151,7 @@ a {
 }
 
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
 
-
-.topnav a.active {
-    background-color: #2196F3;
-    color: white;
-}
-
-
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin: 30px;
-    font-size: 17px;
-}
-
-
-@media screen and (max-width: 600px) {
-
-    .topnav a,
-    .topnav input[type=text] {
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-    }
-
-    .topnav input[type=text] {
-        border: 1px solid #ccc;
-    }
-}
 
 .hth {
     text-align: justify;
@@ -201,7 +203,7 @@ img {
 footer {
     padding: 50px;
     text-align: center;
-    background-color: rgb(245, 219, 70);
+    background-image: linear-gradient(135deg, #FFA8A8 10%, #FCFF00 100%);
     border: 2px solid black;
 }
 
